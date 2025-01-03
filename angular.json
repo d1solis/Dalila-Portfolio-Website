@@ -33,6 +33,7 @@
           },
           "configurations": {
             "production": {
+              "outputPath": "dist/dalila-portfolio-website/browser",
               "budgets": [
                 {
                   "type": "initial",
