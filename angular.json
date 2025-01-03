@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/dalila-portfolio-website",
+            "outputPath": "dist/dalila-portfolio-website/browser",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -33,7 +33,6 @@
           },
           "configurations": {
             "production": {
-              "outputPath": "dist/dalila-portfolio-website/browser",
               "budgets": [
                 {
                   "type": "initial",
